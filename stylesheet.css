@@ -13,6 +13,19 @@ html{
    min-height: 100%;
    
  }
+ .menuicon{
+  display: none;
+  position: absolute;
+  top: 0;
+  right:0;       
+}
+.menuicon div{
+width: 35px;
+height: 5px;
+background-color: white;
+margin: 6px 0;
+
+}
 
 .landnav {
   min-height: 100px;
@@ -335,33 +348,46 @@ p{
 }
 
 
+#minimenu{
+  display: none;
+}
+#minimenu a{
+  
+  width: 100%;
+  font-family: 'Poiret One', cursive;
+  position: center;
+  font-size: 25px;
+
+}
+
 
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media (max-width: 900px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
+  .landnav, .topnav{
+    min-height: 150px;
   }
-  .column img {
-    margin-top: 0px;
-    vertical-align: middle;
-  }
-  @media (max-width: 900px) {
-    .landnav, .topnav{
-      display: none;
-    }
-  
-    #menu-icon {
-      display: flex;
-    }
 
-    p{
-      padding: 10px 16px;
-    }
-  
-    #address{
-      padding-top:1em;
-    }
+  .menuicon{
+    display: block;
+  }
+
+  p{
+    padding: 5px 8px;
+  }
+
+  #address{
+    padding-top:1em;
+  }
+  .mainnav{
+    display: none;
 }
+   
+
+  @media (min-width: 901px){
+
+      #minimenu{
+          display: none;
+      }
+  }
 }
