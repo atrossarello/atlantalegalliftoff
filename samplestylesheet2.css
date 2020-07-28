@@ -1,0 +1,311 @@
+body, html {
+  
+    width: 100%;
+    margin: 0;
+    
+  }
+  
+  html{
+    height: 100%;
+  }
+  
+   body {
+     min-height: 100%;
+     background-color: rgb(242, 244, 243);
+     
+   }
+   /* #wrap{
+    background-image: url("canvas.jpg");
+    opacity: 0.6;
+   } */
+
+   .menuicon{
+       display: none;
+       position: absolute;
+       top: 0;
+       right:0;       
+   }
+   .menuicon div{
+    width: 35px;
+    height: 5px;
+    background-color:#182825;
+    margin: 6px 0;
+    
+  }
+  
+  .landnav {
+    min-height: 100px;
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  .topnav{
+    background-image: url("atlbnw.jpg");
+    background-color: #212121;
+    overflow: hidden;
+    min-height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width:100%;
+    height: 35%;
+    
+    
+  }
+  
+  
+  /* Style the links inside the navigation bar */
+  .topnav a,  .landnav li{
+    background-color: rgba(149, 111, 95,0.4);
+    float: right;
+    display: block;
+    color:#1F1D19;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Martel', serif;
+    font-size: 35px;
+    /* opacity: 0.5; */
+  }
+  .landnav a{
+    
+    color:#182825;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Poiret One', cursive;
+    font-size: 35px;
+  }
+  #menu-icon, .topnav .icon {
+    display: none;
+  }
+  /* Change the color of links on hover */
+  .topnav a:hover, .landnav li:hover {
+    background-color: rgb(242, 244, 243);
+    color: rgba(31, 29, 25);
+    transition: 1.0s;
+  }
+  h1, h2{
+    font-family: 'Martel', serif;
+    background-image: url("wood.jpg");
+    text-align: center;
+    height: 3em;
+    font-size: 50px;
+    padding-top: 1em;
+    color:rgba(55, 44, 42, 0.6);
+    text-shadow: 1px 1px 2px #1F1D19, 0 0 1em rgb(107, 85, 81), 0 0 0.2em rgb(55, 44, 42);
+    box-shadow: 10px 10px 6px -6px #777;
+    /* opacity: 0.6; */
+    
+    
+  }
+  h2{
+    font-family: 'Martel', serif;
+    font-size: 2em;
+    margin: 0em;
+    padding: 1em;
+    
+      
+  }
+
+  .photo2{
+    background-image: url("atlbnw.jpg");
+    background-color: #212121;
+    overflow: hidden;
+    min-height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width:100%;
+    height: 35%;
+    
+  }
+  #mybottomnav {
+    background-color: rgba(75, 87, 106);
+      width: 100%;
+      display:flex;
+      overflow: auto;
+       
+  }
+  
+  #address {
+    background-color: rgb(24, 40, 37);
+    float: left;
+    flex: 1;
+    width: 50%;
+    color: rgb(225, 230, 233);
+    text-align: center;
+     padding-top: 2em;
+    text-decoration: none;
+    font-family: 'Martel', serif;
+    font-size: 25px;
+    min-height: 100%;
+    overflow: hidden;
+    justify-content: center;
+    
+    
+   
+  }
+  #address a{
+      display: block;
+  }
+  
+  #menu {
+    
+    position: center;
+    display: block;
+    /* width: 100%; */
+    flex:2;
+   
+  }
+  #menu  a {
+    background-color: rgb(171, 216, 195);
+    position: center;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: 'Martel', serif;
+    font-size: 1em;
+    transition: 0.4s;
+   
+  }
+  #menu a:hover, .plate:hover,.plate.active, .contactForm button:hover{
+    background-color: rgb(171, 216, 195);
+    color: rgba(31, 29, 25);
+    transition: 1.0s;
+  }
+
+  #menu a:hover{
+    background-color: rgb(225, 230, 233);
+    
+  }
+
+  .plate:hover, .plate.active, .contactForm input, .contactForm textarea{
+      
+      border:.1em solid rgb(31, 29, 25);
+      
+  }
+
+  p{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    padding: 2em;
+    color:#1F1D19;
+  }
+  .plates{
+    
+    text-align: center;
+    display: flex;
+}
+ 
+  .plate, .contactForm button{
+    font-family: 'Martel', serif;
+    font-size: 2em;
+    cursor: pointer;
+    height: 5em;
+    width: 33%;
+    margin: 1em;
+    background-color: rgb(24, 40, 37);
+    border-radius: 3%;
+    display: inline-flex;
+    align-items: center;
+    justify-content:center;
+    color: rgb(225, 230, 233);
+    transition: background-color 0.6s ease;
+   }
+   .map{
+    background-image: url("map.png");
+    width: 100%;
+    height:60%;
+    background-color: #212121;
+    overflow: hidden;
+    min-height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: right;
+    position: relative;
+    
+   }
+
+   .map a{
+       text-align: right;
+       font-family: 'Roboto', sans-serif;
+       background-color: rgba(242, 244, 243);
+       position: absolute;
+       bottom: 0;
+       right: 0;
+   }
+   .contactForm{
+    background-image: url("wood.jpg");
+    color: rgba(31, 29, 25);
+    text-align: center;
+    position: relative;
+}
+
+
+    .contactForm input, .contactForm textarea{
+    font-size: 1em;
+    cursor: pointer;
+    height: 2em;
+    width: 50%;
+    margin: 0.5em;
+    border-radius: 2%;
+    /* display: inline-flex; */
+    align-items: center;
+    justify-content:center;
+    color: rgba(31, 29, 25);
+    transition: background-color 0.6s ease;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+   }
+
+   .contactForm button{
+       height: 2em;
+   }
+
+   .contactForm textarea{
+       height: 150px;
+       width: 50%;
+   }
+
+   #minimenu{
+       display: none;
+   }
+   #minimenu a{
+       
+       width: 100%;
+       font-family: 'Martel', serif;
+       position: center;
+       font-size: 25px;
+
+   }
+
+   @media (max-width: 900px) {
+    
+    .mainnav{
+        display: none;
+    }
+    .topnav{
+        min-height: 150px;
+    }
+    .menuicon{
+        display: inline-block;
+      }
+  
+    }
+
+    @media (min-width: 901px){
+
+        #minimenu{
+            display: none;
+        }
+    }
+
+  
+    

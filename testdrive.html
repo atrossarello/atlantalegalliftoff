@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATL Legal Liftoff</title>
+    <link href="./stylesheet.css" rel="stylesheet" type="text/css">
+    <link rel = "icon" href = "./rocket.png" type = "image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://necolas.github.io/normalize.css/4.1.1/normalize.css" rel="stylesheet"/>
+  </head>
+<body>
+  <div class="main">
+    <div class="number" >
+        <a class="active">678.123.4567</a>
+          
+      </div>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" >Home</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="testdrive.html" class="active">Web Site Test Drive</a>
+        <a href="services.html">Services</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <div class ="spacing" >
+        <a class ="heading" >Test Drive Your Site</a>
+      </div>
+      <div class= "spacing">
+        <input class ="form"  type="textarea" id="fname" name="fname" placeholder="Your Firm Name Here"><br><br>
+        <input class ="form"  type="text" id="tdadd" name="address" placeholder="Address of Firm"><br><br>
+        <input class ="form"  type="text" id="number" placeholder="Phone Number "><br><br>
+        <button id="gobtn" onclick="boom()">Site in Blue</button>
+        <button id="gobtn" onclick="boom2()">Site in Natural</button>
+      </div>
+      <div class="bottomnav" id="mybottomnav">
+        <div id="address">
+          <a >Atlanta Legal Liftoff  <br> P.O. Box 123  <br>Atlanta, GA 30350</a>
+        </div>
+        <div id="menu">
+        <a href="index.html" class="active">Home</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="testdrive.html">Web Site Test Drive</a>
+        <a href="services.html">Services</a>
+      </div>
+      </div>
+    </div>
+    <script>
+
+      function boom(){
+        sessionStorage. clear();
+      var nameinput = document.getElementById("fname").value;
+      var addinput = document.getElementById("tdadd").value;
+      var numinput = document.getElementById("number").value;
+
+     var firmname = sessionStorage.setItem("firmname", nameinput);
+      var address = sessionStorage.setItem("address", addinput);
+      var inputnumber = sessionStorage.setItem("number", numinput);
+      var sitestyle = sessionStorage.setItem("site","samplestylesheet.css");
+      // console.log(firmname + address);
+      window.open('sample.html', '_self');
+      }
+      function boom2(){
+        sessionStorage. clear();
+      var nameinput = document.getElementById("fname").value;
+      var addinput = document.getElementById("tdadd").value;
+      var numinput = document.getElementById("number").value;
+
+     var firmname = sessionStorage.setItem("firmname", nameinput);
+      var address = sessionStorage.setItem("address", addinput);
+      var inputnumber = sessionStorage.setItem("number", numinput);
+      var sitestyle = sessionStorage.setItem("site","samplestylesheet2.css");
+      // console.log(firmname + address);
+      window.open('sample.html', '_self');
+      }
+  </script>  
+</body>
+</html>
