@@ -357,6 +357,7 @@ p{
   font-family: 'Poiret One', cursive;
   position: center;
   font-size: 25px;
+ 
 
 }
 
@@ -372,8 +373,8 @@ p{
     display: block;
   }
 
-  p{
-    padding: 5px 8px;
+  .other{
+    padding: 1em 2em 1em 2em;
   }
 
   #address{
@@ -386,8 +387,9 @@ p{
 
   @media (min-width: 901px){
 
-      #minimenu{
-          display: none;
-      }
+     #minimenu{
+
+      display: none;
+     }
   }
 }
