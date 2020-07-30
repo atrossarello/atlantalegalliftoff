@@ -7,6 +7,7 @@ var site = sessionStorage.getItem("site");
 var a =document.getElementById("sitestyle");
 document.title = name;
 a.href = site;
+console.log(site);
 document.getElementById("firm").innerHTML = "- " + name + " -";
 // document.getElementById("sampleadd").innerHTML = add;
 document.getElementById("sampleaddblock").innerHTML =name  + "<br>" + add;

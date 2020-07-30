@@ -32,6 +32,7 @@
         <input class ="form"  type="text" id="number" placeholder="Phone Number "><br><br>
         <button id="gobtn" onclick="boom()">Site in Blue</button>
         <button id="gobtn" onclick="boom2()">Site in Natural</button>
+        <button id="gobtn" onclick="boom3()">Site in Panoramic</button>
       </div>
       <div class="bottomnav" id="mybottomnav">
         <div id="address">
@@ -72,6 +73,21 @@
       var sitestyle = sessionStorage.setItem("site","samplestylesheet2.css");
       // console.log(firmname + address);
       window.open('sample.html', '_self');
+      }
+
+      function boom3(){
+        sessionStorage. clear();
+      var nameinput = document.getElementById("fname").value;
+      var addinput = document.getElementById("tdadd").value;
+      var numinput = document.getElementById("number").value;
+
+     var firmname = sessionStorage.setItem("firmname", nameinput);
+      var address = sessionStorage.setItem("address", addinput);
+      var inputnumber = sessionStorage.setItem("number", numinput);
+      var sitestyle = sessionStorage.setItem("site","stylesheet3.css");
+      window.open('vidsample.html', '_self');
+      
+
       }
   </script>  
 </body>
