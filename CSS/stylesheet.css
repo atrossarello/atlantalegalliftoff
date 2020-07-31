@@ -33,7 +33,7 @@ margin: 6px 0;
   position: relative;
 }
 .topnav{
-  background-image: url("atlnight.jpg");
+  background-image: url("../Resources/atlnight.jpg");
   background-color: #212121;
   overflow: hidden;
   min-height: 300px;
@@ -170,7 +170,7 @@ margin: 6px 0;
 
 .sidephoto{
 
-background-image: url(liftoff2.jpg);
+background-image: url("../Resources/liftoff2.jpg");
 
 height: 100%;
 width: 100%;

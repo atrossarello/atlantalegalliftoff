@@ -12,12 +12,7 @@ body, html {
    body {
      min-height: 100%;
      background-color: rgb(242, 244, 243);
-     
    }
-   /* #wrap{
-    background-image: url("canvas.jpg");
-    opacity: 0.6;
-   } */
 
    .menuicon{
        display: none;
@@ -39,7 +34,7 @@ body, html {
     position: relative;
   }
   .topnav{
-    background-image: url("atlbnw.jpg");
+    background-image: url("../Resources/atlbnw.jpg");
     background-color: #212121;
     overflow: hidden;
     min-height: 300px;
@@ -87,7 +82,7 @@ body, html {
   }
   h1, h2{
     font-family: 'Martel', serif;
-    background-image: url("wood.jpg");
+    background-image: url("../Resources/wood.jpg");
     text-align: center;
     height: 3em;
     font-size: 50px;
@@ -109,7 +104,7 @@ body, html {
   }
 
   .photo2{
-    background-image: url("atlbnw.jpg");
+    background-image: url("../Resources/atlbnw.jpg");
     background-color: #212121;
     overflow: hidden;
     min-height: 300px;
@@ -217,7 +212,7 @@ body, html {
     transition: background-color 0.6s ease;
    }
    .map{
-    background-image: url("map.png");
+    background-image: url("../Resources/map.png");
     width: 100%;
     height:60%;
     background-color: #212121;
@@ -241,7 +236,7 @@ body, html {
        right: 0;
    }
    .contactForm{
-    background-image: url("wood.jpg");
+    background-image: url("../Resources/wood.jpg");
     color: rgba(31, 29, 25);
     text-align: center;
     position: relative;
