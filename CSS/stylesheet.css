@@ -83,15 +83,12 @@ margin: 6px 0;
 
 .mainnav ul{
   list-style: none;
-  width:100%;
 }
-
-/* Hide the link that should open and close the topnav on small screens */
 
 #mybottomnav {
   background-color:rgba(33, 33, 33 );
    
-   /* background-color: rgba(213, 219, 219, 0.4); */
+   /*  */
     width: 100%;
     display:flex;
     overflow: auto;
@@ -189,16 +186,14 @@ width: 100%;
 #welcome {
   background-color: rgba(213, 219, 219,0.4);
   text-align: center;
-  /* color: #f2f2f2; */
   color: white;
   font-family: 'Poiret One', cursive;
   font-size: 40px;
   min-height: 100;
   width: 100%;
   padding-top: 40;
- /* font-family: 'Roboto', sans-serif;*/
-  
- 
+  margin-top: 4em;;
+
 }
 
 
@@ -357,6 +352,7 @@ p{
   width: 100%;
   font-family: 'Poiret One', cursive;
  text-align: center;
+ font-weight:bold;
  
  
 }
@@ -369,7 +365,7 @@ p{
 
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media (max-width: 900px) {
+@media (max-width: 930px) {
   .topnav{
     min-height: 150px;
   }
@@ -405,8 +401,11 @@ p{
   .topnav li {
     display: block;
     float:none;
-    
 
+}
+
+.topnav a{
+  background-color: rgba(213, 219, 219, 0.4);
 }
 #welcome{
   margin: 0;
