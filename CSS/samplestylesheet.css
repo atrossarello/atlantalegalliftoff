@@ -339,20 +339,42 @@ body, html {
 
    
 
-  @media (min-width: 901px){
+  @media (max-width: 901px){
 
      #minimenu{
 
       display: none;
+     }
+     
+     .plates{
+     display: block;
+     
+     }
+
+     .plate,  .contactForm button{
+      width: 95%;
+      height: 3em;
+      margin: 0.1em;
+      font-size: 1.5em;
      }
   }
    @media (max-width: 480px){
     p, .about{
       margin:0;
     }
+    .topnav{
+      background-image: url("../Resources/smatlantareflect.jpg");
 
    }
+   .map{
+    background-image: url("../Resources/smmap.png");
 
+    }
+    .photo2{
+      background-image: url("../Resources/smatlantareflect2.jpg");
+
+    }
   }
+}
   
     
