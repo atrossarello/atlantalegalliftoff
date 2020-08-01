@@ -292,87 +292,112 @@ html{
 
    }
 
-   @media (max-width: 900px) {
-    
-    .mainnav{
+   /* Responsive media queries */
+   @media (min-width: 901px){
+
+    #minimenu{
         display: none;
     }
-    .topnav{
-        min-height: 150px;
-    }
-    .menuicon{
-        display: inline-block;
-      }
-  
-    }
+}
 
-    @media (min-width: 901px){
-
-        #minimenu{
-            display: none;
-        }
-    }
-    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media (max-width: 900px) {
-  .topnav{
-    min-height: 150px;
-  }
+.topnav{
+min-height: 150px;
+}
 
-  #minimenu{
-    display: block;
-  }
-  .menuicon{
-    display: block;
-  }
+#minimenu{
+display: block;
+}
+.menuicon{
+display: block;
+}
 
-  .other, .about{
-    padding: 1em 2em 1em 2em;
-  }
+p, .about{
+padding: 1em 2em 1em 2em;
+}
+/* 
+p{
+padding: 1em 2.5em;
+} */
 
-  p{
-    padding: 1em 2.5em;
-  }
+#address{
+padding-top:1em;
+}
+.mainnav{
+display: none;
+}
+.prev, .next {
+font-size: 25px;
+}
 
-  #address{
-    padding-top:1em;
-  }
-  .mainnav{
-    display: none;
-  }
-  .prev, .next {
-  font-size: 25px;
-  }
+.form, .gobtn{
+font-size: 25px;
+}
+.topnav li {
+display: block;
+float:none;
 
-  .form, .gobtn{
-  font-size: 25px;
-  }
-  .topnav li {
-    display: block;
-    float:none;
-    
 
 }
 #welcome{
-  margin: 0;
+margin: 0;
+}
 }
 
-   
 
-  @media (min-width: 901px){
 
-     #minimenu{
+@media (max-width: 901px){
 
-      display: none;
-     }
-  }
-   @media (max-width: 480px){
-    p, .about{
-      margin:0;
-    }
+ #minimenu{
 
-   }
+  display: none;
+ }
+ 
+ .plates{
+ display: block;
+ 
+ }
 
-  }
+ .plate,  .contactForm button{
+  width: 95%;
+  height: 3em;
+  margin: 0.1em;
+  font-size: 1.5em;
+ }
+}
+@media (max-width: 480px){
+p, .about{
+  margin:0;
+  font-size: 1.5em;
+}
+
+#firm, h1{
+  font-size: 2em;
+}
+
+.map{
+background-image: url("../Resources/smmap.png");
+
+}
+
+#mybottomnav{
+  flex-direction: column-reverse;
+}
+#address{
+  display: block;
+  position: relative;
+  width: 100%;
+}
+#menu {
+  position: relative;
+  width: 100%;
+}
+.contactForm input, .contactForm textarea{
+width: 95%;
+}
+}
+
+
 
   
     
