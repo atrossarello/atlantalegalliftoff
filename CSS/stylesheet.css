@@ -87,8 +87,6 @@ margin: 6px 0;
 
 #mybottomnav {
   background-color:rgba(33, 33, 33 );
-   
-   /*  */
     width: 100%;
     display:flex;
     /* overflow: auto; */
