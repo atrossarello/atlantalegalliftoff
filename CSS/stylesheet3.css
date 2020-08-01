@@ -312,6 +312,67 @@ html{
             display: none;
         }
     }
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 900px) {
+  .topnav{
+    min-height: 150px;
+  }
+
+  #minimenu{
+    display: block;
+  }
+  .menuicon{
+    display: block;
+  }
+
+  .other, .about{
+    padding: 1em 2em 1em 2em;
+  }
+
+  p{
+    padding: 1em 2.5em;
+  }
+
+  #address{
+    padding-top:1em;
+  }
+  .mainnav{
+    display: none;
+  }
+  .prev, .next {
+  font-size: 25px;
+  }
+
+  .form, .gobtn{
+  font-size: 25px;
+  }
+  .topnav li {
+    display: block;
+    float:none;
+    
+
+}
+#welcome{
+  margin: 0;
+}
+
+   
+
+  @media (min-width: 901px){
+
+     #minimenu{
+
+      display: none;
+     }
+  }
+   @media (max-width: 480px){
+    p, .about{
+      margin:0;
+    }
+
+   }
+
+  }
 
   
     

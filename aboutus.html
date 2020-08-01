@@ -15,13 +15,25 @@
           
       </div>
     <div class="topnav" id="myTopnav">
+      <div class="menuicon" onclick="menuicon()">
+        <div ></div>
+        <div ></div>
+        <div></div>
+      </div>
+      <div id = "minimenu" style="display: none;">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="testdrive.html">Web Site Test Drive</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+      </div >
+      <div class="mainnav">
         <a href="index.html" >Home</a>
         <a href="aboutus.html" class="active">About Us</a>
         <a href="testdrive.html">Web Site Test Drive</a>
         <a href="services.html">Services</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
+      </div>
       </div>
       
       <div  class ="spacing" >
@@ -52,5 +64,6 @@
       </div>
       </div>
     </div>
+    <script src="./JS/script.js"></script>
 </body>
 </html>

@@ -15,13 +15,25 @@
           
       </div>
     <div class="topnav" id="myTopnav">
+      <div class="menuicon" onclick="menuicon()">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div id = "minimenu" style="display: none;">
+        <ul>
+          <li ><a href="index.html" class="active">Home</a></li>
+          <li > <a href="aboutus.html">About Us</a></li>
+          <li ><a href="testdrive.html">Web Site Test Drive</a></li>
+          <li > <a href="services.html">Services</a></li>
+        </ul>
+      </div>
+      <div class="mainnav">
         <a href="index.html" >Home</a>
         <a href="aboutus.html">About Us</a>
         <a href="testdrive.html" class="active">Web Site Test Drive</a>
         <a href="services.html">Services</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
+      </div>
       </div>
       <div class ="spacing" >
         <a class ="heading" >Test Drive Your Site</a>
@@ -30,9 +42,9 @@
         <input class ="form"  type="textarea" id="fname" name="fname" placeholder="Your Firm Name Here"><br><br>
         <input class ="form"  type="text" id="tdadd" name="address" placeholder="Address of Firm"><br><br>
         <input class ="form"  type="text" id="number" placeholder="Phone Number "><br><br>
-        <button id="gobtn" onclick="boom()">Site in Blue</button>
-        <button id="gobtn" onclick="boom2()">Site in Natural</button>
-        <button id="gobtn" onclick="boom3()">Site in Panoramic</button>
+        <button class="gobtn" onclick="boom()">Site in Blue</button>
+        <button class="gobtn" onclick="boom2()">Site in Natural</button>
+        <button class="gobtn" onclick="boom3()">Site in Panoramic</button>
       </div>
       <div class="bottomnav" id="mybottomnav">
         <div id="address">
@@ -90,5 +102,6 @@
 
       }
   </script>  
+  <script src="./JS/script.js"></script>
 </body>
 </html>
