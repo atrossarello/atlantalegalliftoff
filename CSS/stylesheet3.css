@@ -395,6 +395,9 @@ background-image: url("../Resources/smmap.png");
 .contactForm input, .contactForm textarea{
 width: 95%;
 }
+#address, #menu{
+  flex: 0;
+}
 }
 
 

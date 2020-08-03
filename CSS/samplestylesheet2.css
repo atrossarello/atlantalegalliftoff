@@ -392,6 +392,9 @@ width: 95%;
 .map, .topnav, .photo2{
   background-attachment:scroll;
 }
+#address, #menu{
+  flex: 0;
+}
 
 }
   
