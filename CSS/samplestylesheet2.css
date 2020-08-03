@@ -389,7 +389,10 @@ background-image: url("../Resources/smmap.png");
 .contactForm input, .contactForm textarea{
 width: 95%;
 }
+.map, .topnav, .photo2{
+  background-attachment:scroll;
 }
 
+}
   
     
