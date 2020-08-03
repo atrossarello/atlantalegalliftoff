@@ -133,15 +133,11 @@ body, html {
     text-decoration: none;
     font-family: 'Julius Sans One', sans-serif;
     font-size: 25px;
-    
     overflow: hidden;
     justify-content: center;
    
   }
-  #address a{
-      display: block;
-  }
-  
+
   #menu {
     
     position: center;
@@ -402,7 +398,14 @@ body, html {
   }
   #address, #menu{
     flex: 0;
+    min-height: 0;
   }
+  #address a{
+   height: 100%;
+   display: block;
+   padding: 0.3em;
+}
+
 }
 
 
