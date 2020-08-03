@@ -394,8 +394,11 @@ body, html {
   .contactForm input, .contactForm textarea{
     width: 95%;
   }
-  .map, .topnav, .photo2{
+  .map, .topnav{
     background-attachment:scroll;
+  }
+  .photo2{
+    display: none;
   }
   #address, #menu{
     flex: 0;
