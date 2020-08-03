@@ -166,9 +166,9 @@ html{
     
    
   }
-  #address a{
+  /* #address a{
       display: block;
-  }
+  } */
   
   #menu {
     
@@ -387,6 +387,7 @@ background-image: url("../Resources/smmap.png");
   display: block;
   position: relative;
   width: 100%;
+  height: fit-content;
 }
 #menu {
   position: relative;
