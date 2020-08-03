@@ -388,6 +388,7 @@ background-image: url("../Resources/smmap.png");
   position: relative;
   width: 100%;
   height: fit-content;
+  min-height: fit-content;
 }
 #menu {
   position: relative;
