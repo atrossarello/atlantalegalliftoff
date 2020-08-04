@@ -291,9 +291,7 @@ body, html {
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media (max-width: 900px) {
-.topnav{
-min-height: 150px;
-}
+
 
 #minimenu{
 display: block;
@@ -358,11 +356,11 @@ margin: 0;
 @media (max-width: 480px){
   p, .about{
     margin:0;
-    font-size: 1.5em;
+    font-size: 1em;
   }
 
-   h1{
-    font-size: 2em;
+  h1, h2, .contactForm button{
+    font-size: 1.5em;
   }
   
 .topnav, .photo2{
@@ -395,8 +393,23 @@ width: 95%;
 .photo2{
   display: none;
 }
-#address, #menu{
-  flex: 0;
+
+#address{
+  display: block;
+  position: relative;
+  width: 100%;
+  min-height: 10em;
+  font-size: 1.25em;
+}
+#address a{
+  display: block;
+}
+#menu {
+  position: relative;
+  width: 100%;
+}
+#mybottomnav{
+  display: block;
 }
 
 }

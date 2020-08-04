@@ -144,6 +144,7 @@ html{
   #mybottomnav {
       width: 100%;
       display:flex;
+      flex-direction: row-reverse;
       overflow: auto;
        
   }
@@ -176,9 +177,10 @@ html{
     display: block;
     /* width: 100%; */
     flex:2;
+    float:right;
    
   }
-  #menu  a {
+  #menu  a, #minimenu a {
     background-color: rgba(42, 42, 68,0.4);
     position: center;
     display: block;
@@ -281,15 +283,30 @@ html{
    }
 
    #minimenu{
-       display: none;
+     width: 100%;
    }
-   #minimenu a{
+
+    #minimenu ul{
+       /* display: none; */
+       display: block;
+       flex-direction: column;
+       height: 100%;
+       width: 100%;
+   }
+   #minimenu li{
        
        width: 100%;
-       font-family: 'Martel', serif;
-       position: center;
+       font-family: 'Archivo Black', sans-serif;
        font-size: 25px;
-
+       padding: 0;
+       margin: 0;
+       background-color: rgba(42, 42, 68,0.4);
+       text-align: center;
+       display: block;
+       list-style: none;
+       align-items: center;
+       
+ 
    }
 
    /* Responsive media queries */
@@ -301,13 +318,9 @@ html{
 }
 
 @media (max-width: 900px) {
-.topnav{
-min-height: 150px;
-}
 
-#minimenu{
-display: block;
-}
+
+
 .menuicon{
 display: block;
 }
@@ -315,10 +328,6 @@ display: block;
 p, .about{
 padding: 1em 2em 1em 2em;
 }
-/* 
-p{
-padding: 1em 2.5em;
-} */
 
 #address{
 padding-top:1em;
@@ -368,38 +377,51 @@ margin: 0;
 @media (max-width: 480px){
 p, .about{
   margin:0;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
-#firm, h1{
-  font-size: 2em;
-}
 
 .map{
 background-image: url("../Resources/smmap.png");
 
 }
 
-#mybottomnav{
-  flex-direction: column-reverse;
-}
 #address{
   display: block;
   position: relative;
   width: 100%;
-  height: fit-content;
-  min-height: fit-content;
+  min-height: 7em;
+}
+#address a{
+  display: block;
 }
 #menu {
   position: relative;
   width: 100%;
 }
+#mybottomnav{
+  display: block;
+}
 .contactForm input, .contactForm textarea{
 width: 95%;
 }
-#address, #menu{
-  flex: 0;
+#atlvid{
+  display:none;
 }
+.videobg{
+  background-image: url(../Resources/capitol.jpg);
+}
+#firm, h1, h2, .contactForm button{
+  font-size: 1.5em;
+}
+
+
+.photo2, .videobg{
+  height: 50%;
+}
+
+
+
 }
 
 
