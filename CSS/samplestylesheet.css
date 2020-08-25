@@ -118,7 +118,7 @@ body, html {
     background-color: rgba(75, 87, 106);
       width: 100%;
       display:flex;
-      /* overflow: auto; */
+      flex-direction: row-reverse;
        
   }
   
@@ -136,6 +136,10 @@ body, html {
     overflow: hidden;
     justify-content: center;
    
+  }
+  
+  #address a{
+    display: block;
   }
 
   #menu {
@@ -156,6 +160,7 @@ body, html {
     font-family: 'Julius Sans One', sans-serif;
     font-size: 1em;
     transition: 0.4s;
+    text-decoration: none;
    
   }
   #menu a:hover, .plate:hover,.plate.active, .contactForm button:hover{
@@ -403,9 +408,7 @@ body, html {
   width: 100%;
   min-height: 7em;
 }
-#address a{
-  display: block;
-}
+
 #menu {
   position: relative;
   width: 100%;

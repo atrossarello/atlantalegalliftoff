@@ -13,11 +13,10 @@
     <div class="videobg">
       <div id = "minimenu" style="display: none;">
         <ul class="mini">
-      <li><a>Home</a></li> 
-      <li><a>About Us</a></li> 
-      <li><a>Areas of Practice</a></li> 
-      <li><a>Contact Us</a></li> 
-      <li><a>Locations</a></li> 
+      <li><a class="active">Home</a></li> 
+      <li><a href="#contact">Contact Us</a></li> 
+      <li><a href="#practiceareas">Areas of Practice</a></li> 
+      <li><a href="#intro">About Us</a></li> 
       </ul>
     </div>
         <video id ="atlvid" autoplay muted poster =""
@@ -41,11 +40,10 @@
           
          <div class = "mainnav">
            <ul> 
-              <li class="active"> <a >Home</a> </li>
-              <li><a>About Us</a></li>
-              <li> <a>Areas of Practice</a></li>
-              <li><a>Contact Us</a></li>
-              <li><a>Locations</a></li>
+            <li class="active"><a>Home</a></li> 
+            <li><a href="#contact">Contact Us</a></li> 
+            <li><a href="#practiceareas">Areas of Practice</a></li> 
+            <li><a href="#intro">About Us</a></li> 
             </ul>
               </div>
          </div>
@@ -55,7 +53,7 @@
  
      <div >
         
-         <P>In this section your will make your first impression to your client. Tell them all
+         <P id="intro">In this section your will make your first impression to your client. Tell them all
              about your firms values and the services that you can provide them. What follows is 
              some text to fill space. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
              do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
@@ -67,7 +65,7 @@
        </div>
  
      <div class = "photo2">
-      <h1>- Areas Of Practice -</h1>
+      <h1 id="practiceareas">- Areas Of Practice -</h1>
      
      </div>
  
@@ -113,7 +111,7 @@
            <a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors</a>
          </div>
  
-         <div class= "contactForm">
+         <div id="contact" class= "contactForm">
              <H2 id="contactus"></H2>
              <input class ="form"  type="textarea" id="fname" name="fname" placeholder="Your Fulll Name"><br><br>
              <input class ="form"  type="text" id="tdadd" name="address" placeholder="Contact Phone Number"><br><br>
@@ -125,10 +123,12 @@
      <div class="bottomnav" id="mybottomnav">
        
          <div id="menu">
-             <a class="active">Home</a>
-             <a>About Us</a>
-             <a>Contact Us</a>
-             <a>Locations</a>
+          <ul> 
+            <li class="active"><a>Home</a></li> 
+            <li><a href="#contact">Contact Us</a></li> 
+            <li><a href="#practiceareas">Areas of Practice</a></li> 
+            <li><a href="#intro">About Us</a></li> 
+            </ul>
           </div>
           <div id="address">
             <a id="sampleaddblock"></a>

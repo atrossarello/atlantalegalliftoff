@@ -117,9 +117,10 @@ body, html {
     
   }
   #mybottomnav {
-    background-color: rgba(75, 87, 106);
+    background-color: rgba(171, 216, 195);
       width: 100%;
       display:flex;
+      flex-direction: row-reverse;
       overflow: auto;
        
   }
@@ -138,14 +139,12 @@ body, html {
     min-height: 100%;
     overflow: hidden;
     justify-content: center;
-    
-    
-   
   }
-  /* #address a{
-      display: block;
+
+  #address a{
+    display: block;
   }
-   */
+
   #menu {
     
     position: center;
@@ -164,6 +163,7 @@ body, html {
     font-family: 'Martel', serif;
     font-size: 1em;
     transition: 0.4s;
+    text-decoration: none;
    
   }
   #menu a:hover, .plate:hover,.plate.active, .contactForm button:hover{
@@ -278,6 +278,7 @@ body, html {
        font-family: 'Martel', serif;
        position: center;
        font-size: 25px;
+       
 
    }
 
@@ -401,9 +402,7 @@ width: 95%;
   min-height: 10em;
   font-size: 1.25em;
 }
-#address a{
-  display: block;
-}
+
 #menu {
   position: relative;
   width: 100%;

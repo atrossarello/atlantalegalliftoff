@@ -80,6 +80,12 @@ html{
     width:100%;
    
   }
+
+  .mainnav a{
+    
+    text-decoration: none;
+    color: white;
+  }
   
   ul{
     padding: 0;
@@ -99,14 +105,14 @@ html{
     text-decoration: none;
     font-family: 'Archivo Black', sans-serif;
     font-size: 1em;
-    width: 20%;
+    width: 25%;
   }
  
   #menu-icon, .topnav .icon {
     display: none;
   }
   /* Change the color of links on hover */
-  .topnav li:hover, .topnav li.active,#menu a:hover, 
+  .topnav li:hover, .topnav li.active, #menu li:hover, 
   .plate:hover,.plate.active, .contactForm button:hover {
     background-color: rgba(42, 42, 68);
     transition: 1.0s;
@@ -163,13 +169,11 @@ html{
     min-height: 100%;
     overflow: hidden;
     justify-content: center;
-    
-    
-   
   }
-  /* #address a{
-      display: block;
-  } */
+
+  #address a{
+    display: block;
+  }
   
   #menu {
     
@@ -178,10 +182,18 @@ html{
     /* width: 100%; */
     flex:2;
     float:right;
-   
+    background-color: #9f9da6;
+  
   }
-  #menu  a, #minimenu a {
-    background-color: rgba(42, 42, 68,0.4);
+  #menu ul{
+    list-style: none;
+    display: block;
+    
+  }
+
+  #menu a , #minimenu a {
+    
+    background-color: rgba(159, 157, 166,0);
     position: center;
     display: block;
     color: white;
@@ -190,8 +202,14 @@ html{
     font-family: 'Archivo Black', sans-serif;
     font-size: 1em;
     transition: 0.4s;
+    text-decoration: none;
    
   }
+  
+  #minimenu ul{
+    background-color: rgba(42, 42, 68,0.4);
+  }
+  
 
   p{
     font-family: 'Roboto', sans-serif;
