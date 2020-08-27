@@ -400,9 +400,9 @@ p, .about{
 
 
 .map{
-background-image: url("../Resources/smmap.png");
+  background-image: url("../Resources/smmap.png");
 
-}
+  }
 
 #address{
   display: block;
