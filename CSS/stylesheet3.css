@@ -401,8 +401,10 @@ p, .about{
 
 .map{
   background-image: url("../Resources/smmap.png");
+  background-attachment:scroll;
 
   }
+  
 
 #address{
   display: block;
